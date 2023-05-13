@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Calculadora Científica</title>
+    <style>
+        /* Estilos para la calculadora */
+        body {
+            font-family: sans-serif;
+            background-color: #f7f7f7;
+        }
+        #calculadora {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+        }
+        #pantalla {
+            width: 100%;
+            height: 60px;
+            margin-bottom: 20px;
+            font-size: 24px;
+            text-align: right;
+            padding: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f2f2f2;
+        }
+        button {
+            display: inline-block;
+            width: 60px;
+            height: 60px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            border: none;
+            border-radius: 5px;
+            color: #fff;
+            background-color: #4CAF50;
+            cursor: pointer;
+            outline: none;
+        }
+        button:hover {
+            background-color: #3e8e41;
+        }
+        .operaciones {
+            background-color: #008CBA;
+        }
+        .funciones {
+            background-color: #f44336;
+        }
+        .numeros {
+            background-color: #4CAF50;
+        }
+    </style>
+</head>
+<body>
+    <div id="calculadora">
+        <div id="pantalla"></div>
+        <button onclick="borrar()">C</button>
+        <button onclick="borrarUno()">←</button>
+        <button onclick="agregarCaracter('^')">xⁿ</button>
+        <button onclick="agregarCaracter('/')">/</button><br>
+        <button onclick="agregarNumero(7)" class="numeros">7</button>
+        <button onclick="agregarNumero(8)" class="numeros">8</button>
+        <button onclick="agregarNumero(9)" class="numeros">9</button>
+        <button onclick="agregarCaracter('*')" class="operaciones">x</button><br>
+        <button onclick="agregarNumero(4)" class="numeros">4</button>
+        <button onclick="agregarNumero(5)" class="numeros">5</button>
+        <button onclick="agregarNumero(6)" class="numeros">6</button>
+        <button onclick="agregarCaracter('-')" class="operaciones">-</button><br>
+        <button onclick="agregarNumero(1)" class="numeros">1</button>
+        <button onclick="agregarNumero(2)" class="numeros">2</button>
+        <button onclick="agregarNumero(3)" class="numeros">3</button>
+        <button onclick="agregarCaracter('+' )" class="operaciones">+</button><br>
+        <button onclick="ag
+
+
+
+
